@@ -11,7 +11,7 @@ int main()
 	char  buff[50];
 	ifstream file;
 	file.open("input.txt");
-	 if (ofs.is_open()){
+	 if (file.is_open()){
 	while (file) {
 		file >> buff;
 		if (!strcmp(buff, "/**")) {
